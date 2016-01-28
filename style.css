@@ -1,0 +1,70 @@
+body {
+  	background-color: rgba(0,0 , 25, 0.15);
+  	background-image:linear-gradient(to top, #95a5a6 50%, black 500%);
+  }
+
+.menu {
+  margin-top: 35px;
+}
+#boxTitre{
+  text-align: center;
+}
+/* box profil */
+.photo {
+  height: 300px;
+  border-radius: 20px 20px 20px 20px;
+}
+  font-family: helvetica;
+.profil {
+
+}
+.nom {
+  font-size: 1.2em;
+
+}
+
+.travaux {
+  text-align: center;
+}
+.pictravaux {
+  -webkit-transition:all 0.5s ease-out;
+ -moz-transition:all 0.5s ease-out;
+ -ms-transition:all 0.5s ease-out;
+ -o-transition:all 0.5s ease-out;
+ transition:all 0.5s ease-out;
+}
+.pictravaux:hover {
+  -webkit-transform:scale(1.4);
+    -moz-transform:scale(1.4);
+    -ms-transform:scale(1.4);
+    -o-transform:scale(1.4);
+    transform:scale(1.4);
+}
+
+/* box etudes */
+.diplome {
+  background-color: rgba(0, 138, 138, 0.05);
+  font-family: helvetica;
+  border-radius: 7px 7px 7px 7px;
+
+}
+.etudes {
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* box contact */
+.contact {
+  background-color: rgba(0, 138, 138, 0.05);
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border-radius: 7px 7px 7px 7px;
+  text-align: center;
+}
+li {
+  list-style: none;
+}
+a{
+color: red;
+
+}
